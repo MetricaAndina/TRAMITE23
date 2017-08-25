@@ -1,0 +1,37 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "tramites", "http://localhost/tramite23/tramites.vbproj", "{223A1D9A-DF0A-4CDC-B0A8-28E52BDD5AA8}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "ADSQLTRAMITES", "..\..\..\..\ADTRAMITE23\ADSQLTRAMITES\ADSQLTRAMITES.vbproj", "{5048E010-D46C-4211-92E6-A494094BAF8A}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "ADTRAMITES", "..\..\..\..\ADTRAMITE23\ADTRAMITES\ADTRAMITES.vbproj", "{D5DD9749-6924-4EFC-9C2E-30A8C3EEF108}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{223A1D9A-DF0A-4CDC-B0A8-28E52BDD5AA8}.Debug.ActiveCfg = Debug|.NET
+		{223A1D9A-DF0A-4CDC-B0A8-28E52BDD5AA8}.Debug.Build.0 = Debug|.NET
+		{223A1D9A-DF0A-4CDC-B0A8-28E52BDD5AA8}.Release.ActiveCfg = Release|.NET
+		{223A1D9A-DF0A-4CDC-B0A8-28E52BDD5AA8}.Release.Build.0 = Release|.NET
+		{5048E010-D46C-4211-92E6-A494094BAF8A}.Debug.ActiveCfg = Debug|.NET
+		{5048E010-D46C-4211-92E6-A494094BAF8A}.Debug.Build.0 = Debug|.NET
+		{5048E010-D46C-4211-92E6-A494094BAF8A}.Release.ActiveCfg = Release|.NET
+		{5048E010-D46C-4211-92E6-A494094BAF8A}.Release.Build.0 = Release|.NET
+		{D5DD9749-6924-4EFC-9C2E-30A8C3EEF108}.Debug.ActiveCfg = Debug|.NET
+		{D5DD9749-6924-4EFC-9C2E-30A8C3EEF108}.Debug.Build.0 = Debug|.NET
+		{D5DD9749-6924-4EFC-9C2E-30A8C3EEF108}.Release.ActiveCfg = Release|.NET
+		{D5DD9749-6924-4EFC-9C2E-30A8C3EEF108}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

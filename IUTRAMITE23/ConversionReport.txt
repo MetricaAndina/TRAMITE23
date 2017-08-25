@@ -1,0 +1,60 @@
+﻿This report shows the steps taken to convert your Web application from ASP.NET 1.1 to ASP.NET 2.0. 
+There may be some unresolved conversion issues you will need to manually fix. 
+For more information, please refer to http://go.microsoft.com/fwlink/?LinkId=46995 or search for the help topic "Converting from Visual Studio .NET 2002 or 2003".
+Conversion Started on project file tramites.vbproj at July 08 2008, 13:32:06.
+
+=========================ERRORS===================
+
+=========================WARNINGS=================
+Warning: This web project was converted as a file-based web application. If your site contained any IIS meta-information, e.g. sub-folders marked as virtual directories, it is recommended that you close this web site and re-open it using the Open Web Site command and selecting the Local IIS tab.
+
+=========================COMMENTS=================
+Web.Config: Added 'xhtmlConformance' attribute.
+Removed attribute Codebehind from file Global.asax.
+Removed attribute Codebehind from file tr2301.aspx.
+Warning: Access level of 'tramites.tr2301' changed to 'Partial' in file tr2301.aspx.vb (Line 6).
+Warning: Removed comment lines before designplaceholder declaration from file tr2301.aspx.vb.    tr2301.aspx.vb (Line 35)
+Removed attribute Codebehind from file tr2302.aspx.
+Warning: Access level of 'tramites.tr2302' changed to 'Partial' in file tr2302.aspx.vb (Line 6).
+Warning: Removed comment lines before designplaceholder declaration from file tr2302.aspx.vb.    tr2302.aspx.vb (Line 37)
+Removed attribute Codebehind from file tr2303.aspx.
+Warning: Access level of 'tramites.tr2303' changed to 'Partial' in file tr2303.aspx.vb (Line 6).
+Warning: Removed comment lines before designplaceholder declaration from file tr2303.aspx.vb.    tr2303.aspx.vb (Line 36)
+Removed attribute Codebehind from file tr2304.aspx.
+Warning: Access level of 'tramites.tr2304' changed to 'Partial' in file tr2304.aspx.vb (Line 6).
+Warning: Removed comment lines before designplaceholder declaration from file tr2304.aspx.vb.    tr2304.aspx.vb (Line 37)
+Removed attribute Codebehind from file tr2305.aspx.
+Warning: Access level of 'tramites.tr2305' changed to 'Partial' in file tr2305.aspx.vb (Line 6).
+Warning: Removed comment lines before designplaceholder declaration from file tr2305.aspx.vb.    tr2305.aspx.vb (Line 37)
+Removed attribute Codebehind from file tr23cse.aspx.
+Warning: Access level of 'tramites.tr23cse' changed to 'Partial' in file tr23cse.aspx.vb (Line 3).
+Warning: Removed comment lines before designplaceholder declaration from file tr23cse.aspx.vb.    tr23cse.aspx.vb (Line 13)
+Removed attribute Codebehind from file tr23envio.aspx.
+Warning: Access level of 'tramites.tr23envio' changed to 'Partial' in file tr23envio.aspx.vb (Line 6).
+Warning: Removed comment lines before designplaceholder declaration from file tr23envio.aspx.vb.    tr23envio.aspx.vb (Line 18)
+Removed attribute Codebehind from file tr23resultado.aspx.
+Warning: Access level of 'tramites.traresultado' changed to 'Partial' in file tr23resultado.aspx.vb (Line 3).
+Warning: Removed comment lines before designplaceholder declaration from file tr23resultado.aspx.vb.    tr23resultado.aspx.vb (Line 13)
+Removed attribute TargetSchema from file ctrusuario\cabecera.ascx.
+Removed attribute Codebehind from file ctrusuario\cabecera.ascx.
+Warning: Access level of 'tramites.Cabecera' changed to 'Partial' in file ctrusuario\Cabecera.ascx.vb (Line 3).
+Warning: Removed comment lines before designplaceholder declaration from file ctrusuario\Cabecera.ascx.vb.    ctrusuario\Cabecera.ascx.vb (Line 13)
+Removed attribute TargetSchema from file ctrusuario\evmenu.ascx.
+Removed attribute Codebehind from file ctrusuario\evmenu.ascx.
+Warning: Access level of 'tramites.evmenu' changed to 'Partial' in file ctrusuario\evmenu.ascx.vb (Line 3).
+Warning: Removed comment lines before designplaceholder declaration from file ctrusuario\evmenu.ascx.vb.    ctrusuario\evmenu.ascx.vb (Line 13)
+Removed attribute TargetSchema from file ctrusuario\piepagina.ascx.
+Removed attribute Codebehind from file ctrusuario\piepagina.ascx.
+Warning: Access level of 'tramites.PiePagina' changed to 'Partial' in file ctrusuario\PiePagina.ascx.vb (Line 3).
+Warning: Removed comment lines before designplaceholder declaration from file ctrusuario\PiePagina.ascx.vb.    ctrusuario\PiePagina.ascx.vb (Line 13)
+Added folder App_Code.
+Moved file Global.asax.vb to the App_Code\ directory.
+Warning: Access level of 'Variables' changed to 'public' in file Conexion.vb (Line 8).    Conexion.vb (Line 8)
+Moved file Conexion.vb to the App_Code\ directory.
+Moved file AssemblyInfo.vb to the App_Code\ directory.
+Changed HTML validation schema for all projects to 'Internet Explorer 6.0'.
+Removed file Bin\tramites.dll.
+Removed file Bin\tramites.pdb.
+Removed file tramites.vbproj.
+Removed file tramites.vbproj.webinfo.
+Project tramites.vbproj has been converted successfully at July 08 2008, 13:32:12.
