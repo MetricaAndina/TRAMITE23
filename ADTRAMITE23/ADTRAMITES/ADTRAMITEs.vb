@@ -517,12 +517,12 @@ Namespace ADTRAMITES
             Dim strSQL As String, pcount As Integer
             Dim DataSet As New DataSet
             Dim dr As DataRow
-            strSQL = "SELECT DISTINCT P.COD_PERIODO DES_FRECUENCIA" & _
-                    " FROM PERIODO P " & _
-                    " WHERE P.COD_LINEA_NEGOCIO = :COD_LINEA_NEGOCIO " & _
-                    " 	AND P.COD_MODAL_EST = :COD_MODAL_EST " & _
-                    "	AND (P.FECHA_INICIO BETWEEN TO_DATE(:FECHA_INICIO,'DD/MM/YYYY') AND TO_DATE(:FECHA_INICIO2,'DD/MM/YYYY') OR" & _
-                    "  	     P.FECHA_TERMINO BETWEEN TO_DATE(:FECHA_TERMINO,'DD/MM/YYYY') AND TO_DATE(:FECHA_TERMINO,'DD/MM/YYYY') OR" & _
+            strSQL = "SELECT DISTINCT P.COD_PERIODO DES_FRECUENCIA" &
+                    " FROM PERIODO P " &
+                    " WHERE P.COD_LINEA_NEGOCIO = :COD_LINEA_NEGOCIO " &
+                    " 	AND P.COD_MODAL_EST = :COD_MODAL_EST " &
+                    "	AND (P.FECHA_INICIO BETWEEN TO_DATE(:FECHA_INICIO,'DD/MM/YYYY') AND TO_DATE(:FECHA_INICIO2,'DD/MM/YYYY') OR" &
+                    "  	     P.FECHA_TERMINO BETWEEN TO_DATE(:FECHA_TERMINO,'DD/MM/YYYY') AND TO_DATE(:FECHA_TERMINO2,'DD/MM/YYYY') OR" &
                     "        TO_DATE(:FECHA,'DD/MM/YYYY') BETWEEN P.FECHA_INICIO AND P.FECHA_TERMINO  )"
             Dim oCx As New OracleConnection(conexion)
 
